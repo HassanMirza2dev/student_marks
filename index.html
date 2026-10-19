@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>name mark list</title>
+</head>
+<body>
+    <input type="text" id="user_name" placeholder="Enter student name">
+    <span id="name-errer" class="hide">name is required</span>
+    <input type="number" id="user_mark" placeholder="Enter student mark">
+    <span id="mark-errer" class="hide">number must be between 0 and 100</span>
+   <button onclick="studentMarksCal()">add</button>
+   <button onclick="removeEnd()">remove end</button>
+   <button onclick="removeAll()">remove all</button>
+    <p id="show_result"></p>
+    <p id="highestmark"></p>
+    <p id="lowestmark"></p>
+    <script src="assets/script.js"></script>
+</body>
+</html>
